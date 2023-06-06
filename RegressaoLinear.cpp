@@ -64,10 +64,10 @@ int main() {
 
     //mostrando a previsao para os valores de y_pred por meio do xteste
     std::vector<int> y_pred = previsao(xteste,a,b);
-    std::cout << "a previsao e: ";
+    std::cout << "a previsao e: " << std::endl;
     for(const auto &x : y_pred){
 
-        std::cout << x << ' ';
+        std::cout << x << std::endl;
     }
 
 
