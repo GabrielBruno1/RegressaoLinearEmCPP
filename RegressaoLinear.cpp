@@ -62,7 +62,7 @@ int main() {
     // Calculando os coeficientes a e b
     coeficientes(x, y, a, b);
 
-    //mostrando a previsao dos valores do xteste
+    //mostrando a previsao para os valores d y, por meio do xteste
     std::vector<int> y_pred = previsao(xteste,a,b);
     std::cout << "a previsao e: ";
     for(const auto &x : y_pred){
